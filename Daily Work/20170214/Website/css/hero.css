@@ -1,64 +1,18 @@
-.orbit-container {
-  position: relative;
-  height: 500px; }
+.four-up-feature {
+  text-align: center;
+}
 
-  .orbit-caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(10, 10, 10, 0.9); }
+.four-up-feature .four-up-feature-header {
+  margin-bottom: 3rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
 
-    .orbit-caption p {
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      text-align: center;
-      color: #fefefe;
-      font-size: 48px;
-      font-weight: 900; }
+.four-up-feature .four-up-feature-image {
+  margin-bottom: 2rem;
+}
 
-      @media screen and (max-width: 39.9375em) {
-        .orbit-caption p {
-          font-size: 12px;
-          font-weight: 400; } }
-          .orbit-bullets {
-            display: none; }
-            SCSS
-            .orbit-container {
-              position: relative;
-              height: 500px;
-            }
-            .orbit-caption {
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background-color: rgba(10, 10, 10, 0.9);
-            }
-            .orbit-caption p {
-              position: relative;
-              top: 50%;
-              -webkit-transform: translateY(-50%);
-              -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-              text-align: center;
-              color: #fefefe;
-              font-size: 48px;
-              font-weight: 900;
-            }
-            @media screen and (max-width: 39.9375em) {
-              .orbit-caption p{
-                font-size: 12px;
-                font-weight: 400;
-              }
-            }
-
-            .orbit-bullets {
-              display: none;
-            }
-            JS
+.four-up-feature .four-up-feature-text {
+  margin-bottom: 2rem;
+}
