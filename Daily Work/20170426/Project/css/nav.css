@@ -5,7 +5,7 @@ body {
 .sticky-shrinknav-menu {
   position: absolute;
   bottom: 0;
-  height: 3.75rem;
+  height: 4.75rem;
   line-height: 3.75rem;
   width: 100%;
   background-color: rgba(23, 121, 186, 0.1);
@@ -27,7 +27,7 @@ body {
 
 .sticky-shrinknav-header-title {
   transition: all 0.3s ease;
-  position: relative;
+  position: center;
   -webkit-transform: translateY(-1.875rem);
   -ms-transform: translateY(-1.875rem);
   transform: translateY(-1.875rem);
